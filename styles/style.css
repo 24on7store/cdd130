@@ -1,4 +1,4 @@
-/* style.css */
+/* my style.css for week04 */
 .container {
     max-width: 1600px;
     margin: 0 auto;
@@ -58,11 +58,11 @@
   .book,
   .join,
   .msg h2,
-  .msg p,
-  footer,
+  .msg p 
+   footer,
   footer a,
   footer a:hover {
-    color: black;
+    color:  darkblue;
   }
   
   .icon {
@@ -81,4 +81,7 @@
     font-size: 1.2em;
   }
   
-  
+  footer p a:hover {
+    text-decoration: underline;
+
+  }
