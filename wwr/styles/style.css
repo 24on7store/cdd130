@@ -54,6 +54,13 @@ nav {
   gap: 20px;
 }
 
+.rivers-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+  }
+  
+
 .card-img, .mountains {
   width: 100%;
 }
@@ -94,7 +101,7 @@ nav {
 
 
 footer {
-  background-color: #6f7364;
+  background-color: gray;
   padding: 25px 50px;
   margin-top: 200px; 
   display: flex;
